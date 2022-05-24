@@ -1,0 +1,91 @@
+
+.contenedor-flex{
+    display: flex;
+    /* align-items: space-around; */
+}
+.agenda-flex{
+    display: flex;
+    /* background-color: #5b001e; */
+    width: 66%;
+    height: 100%;
+    padding: 10px;
+    color: #fff;
+    justify-content: space-evenly;
+}
+.cajita{
+    margin: auto;
+    /* background-color: #990033; */
+    width: 400px;
+    height: 100%;
+    padding: 10px;
+    color: #990033;
+    text-align: center;
+}
+.cajita2{
+    margin: auto;
+    /* background-color: #990033; */
+    width: 200px;
+    padding: 10px;
+    color: #990033;
+    height: 160px;
+
+}
+.ImgClick{
+    width: 100px;
+    height: 100px;
+}
+hr{
+    border: 1px solid #990033;
+}
+.titulo{
+ text-decoration: solid;
+}
+.subtitulo{
+    color: #6a6a6a;
+}
+.cajita a{
+    text-decoration: none;
+    color: #990033;
+    font-size: 17px;
+}
+.cajita a:hover{
+    color: black;
+}
+.ImgAgenda{
+    width: 100%;
+    height: 50%;
+    margin: 0px 0px 15px;
+}
+.cajita2 a{
+    text-decoration: none;
+    color: #990033;
+    font-size: 17px;
+}
+.cajita2 a:hover{
+    color: black;
+}
+.interes{
+    background-color: #fff;
+    width: 300px;
+    height: 350px;
+    padding-top: 1%;
+}
+.ImgInteres{
+    width: 250px;
+    height: 200px;
+}
+.mediacaja2{
+    background-color: #990033;
+    color: #fff;
+    width: 150px;
+    height: 100px;
+}
+.mediacaja{
+    background-color: #fff;
+    width: 150px;
+    height: 100px;
+}
+.ImgWebs{
+    width: 150px;
+    height: 100px;
+}
