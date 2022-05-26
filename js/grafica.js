@@ -1,7 +1,10 @@
 document.addEventListener("DOMContentLoaded", function(event) {
     GraficoTemp();
     GraficoHum();
+ //   load_data();
 });
+
+//----------------------------------------------------------------------------
 function GraficoTemp(){
 const ctz = document.getElementById('graficaTemp');
 const etiquetas = ["01:00","02:00","03:00","04:00","05:00","06:00","07:00","08:00","09:00","10:00","11:00","12:00","13:00","14:00","15:00","16:00","17:00","18:00","19:00","20:00","21:00","22:00","23:00","24:00"]
@@ -13,7 +16,7 @@ const datosTemp={
     borderWidth: 1, // Ancho del borde
 }
 const data =  {
-    labels: etiquetas,
+    labels:etiquetas ,
     datasets: [
         datosTemp,
         // Aquí más datos...
@@ -37,6 +40,8 @@ const myChart = new Chart(ctz, {
 }
 );
 };
+//----------------------------------------------------------------------------
+
 function GraficoHum(){
     const ctx = document.getElementById('graficaHum');
     const etiquetas2 = ["01:00","02:00","03:00","04:00","05:00","06:00","07:00","08:00","09:00","10:00","11:00","12:00","13:00","14:00","15:00","16:00","17:00","18:00","19:00","20:00","21:00","22:00","23:00","24:00"]
@@ -72,3 +77,4 @@ function GraficoHum(){
     }
     );
 };
+//----------------------------------------------------------------------------
