@@ -77,6 +77,9 @@ ul{
     padding: 5px;
     font-size: 20px;
 }
+.dato a{
+ color:black;
+}
 .dato {
     height: 100%;
     background-color: #d9dadc;
@@ -84,7 +87,7 @@ ul{
     font-size: 15px;
     padding: 5px;
     border:2.5px solid #525252 ;
-    text-align: center;
+    text-align: justify;
 }
 .Nomb{
     font-size: 35px;
@@ -95,6 +98,10 @@ ul{
 }
 .zozer{
     font-size: 20px;
+}
+.zozer a{
+    color: #fff;
+
 }
 #nav1{
     background-color: #990033;
@@ -145,7 +152,6 @@ table,th,tr,td {
 }
 .Tabla{
     display: flex;
-    margin-left: 31%;
 }
 .divTabla{
     width: 100%;
@@ -153,4 +159,12 @@ table,th,tr,td {
     background-color: #003657;
     color: #fff;
     text-align:center;
+}
+#tablaHum{
+    margin-left: 33%;
+
+}
+#tablaTemp{
+    margin-left: 27%;
+
 }
